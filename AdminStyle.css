@@ -1,0 +1,83 @@
+﻿body 
+{
+    background-color: #ECFFDC;
+    
+}
+
+
+
+.menubar
+{
+    width: 100%;
+    background-color: #AFE1AF;
+}
+
+.menubar td 
+{
+    padding: 10px; 
+    text-align: center;
+    
+}
+
+
+
+.tblhead
+            {
+                height:35px;
+                color:white;
+                font-size:medium;
+                font-weight:bold;
+               background-color:firebrick;
+                text-align:center;
+               
+                
+                }
+ .lbl
+        {
+            color:#004AE6;
+            text-align:right;
+            
+            }
+
+ .txt
+   {
+       width:160px;
+       height:22px;
+       border:solid 1px #ccc;
+       padding-left:5px;
+       
+       }
+       
+  .txt:focus
+  {
+       width:160px;
+       height:22px;
+       border:solid 1px #2D71FF;
+       padding-left:5px;
+      }
+
+ .btn
+        { 
+            height:30px;
+            width:100px;
+            border:solid 1px #ccc;
+             background-color:firebrick;
+             
+             font-weight:bold;
+             font-size:14px;
+             color:white;
+}
+            
+
+.tbl
+{
+    width:50%;
+    border-color:mediumpurple;
+    background-color:white;  
+    border:double;       
+}
+
+.add
+{
+    
+}

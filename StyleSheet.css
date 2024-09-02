@@ -1,0 +1,92 @@
+﻿body 
+{
+    background-color: #ECFFDC;
+}
+
+
+
+
+.homelogin
+{
+    width:500px;
+    
+    
+}
+
+.homelink
+{
+        height:30px;
+       width:50px;
+        
+        border:solid 1px #ccc;
+        background-color:darkgray;
+        margin-top:5px;
+        font-weight:bold;
+        font-size:14px;
+        color:#fff;
+        
+}
+
+.login
+{
+    background-color:white;
+    margin-top:50px;
+    width:500px;
+    text-align:center;
+    border:double;
+}
+
+.a
+{
+    background-color:cornflowerblue;
+}
+
+
+.menubar
+{
+    width: 100%;
+    background-color: #AFE1AF;
+}
+
+.menubar td 
+{
+    padding: 10px; 
+    text-align: center;
+    
+}
+
+.tbl
+{
+    text-align:center;
+    width:500px;
+    border:double;
+   
+} 
+
+
+
+    .tblhead
+      {
+          height:40px;
+          color:#fff;
+          
+          font-size:20px;
+          font-weight:bold;
+          background-color:cornflowerblue;
+          padding-left:10px;
+          text-align:center;
+          
+          }
+
+
+.fdheader
+{
+    background-color:cornflowerblue;
+    height:25px;
+}
+
+.tblfd
+{
+    width:300px;
+}
+

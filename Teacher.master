@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Teacher.master.cs" Inherits="Teacher" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="AdminStyle.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo1.png"/>
+        </div>
+        <div>
+             <table class="menubar">
+            <tr>
+                <td>  
+                    <asp:LinkButton ID="lnkhome" runat="server" PostBackUrl="~/T_HomeMast.aspx">Home</asp:LinkButton>
+                </td>
+                <td>  
+                    <asp:LinkButton ID="lnkAddStud" runat="server" PostBackUrl="~/AddStudent.aspx">Add Student</asp:LinkButton>
+                </td>
+                <td>  
+                    <asp:LinkButton ID="lnkAttendance" runat="server" PostBackUrl="~/Attendance.aspx">Take Attendance</asp:LinkButton>
+                </td>
+                <td>  
+                    <asp:LinkButton ID="lnkAttRep" runat="server" PostBackUrl="~/AttendanceReport.aspx">Attendance Report</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkStudProf" runat="server" PostBackUrl="~/T_StudProfile.aspx">Student Profile</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkLogOut" runat="server" PostBackUrl="~/Home.aspx">Log Out</asp:LinkButton>
+                </td>
+              </tr>
+        </table>
+        
+    </div>
+        <div>
+            <table align="right">
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/T_HomeMast.aspx">Go Back</asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

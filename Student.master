@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Student.master.cs" Inherits="Student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="stylesheet" type="text/css" href="AdminStyle.css"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo1.png"  />
+        </div>
+        <div>
+             <table class="menubar">
+            <tr>
+                <td>  
+                    <asp:LinkButton ID="lnkSMProf" runat="server" PostBackUrl="~/S_MyProfile.aspx">Student Profile</asp:LinkButton>
+                </td>
+                <td>  
+                    <asp:LinkButton ID="lnkSMAtt" runat="server" PostBackUrl="~/S_MyAttendance.aspx">My Attendance</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkLogOut" runat="server" PostBackUrl="~/Home.aspx">Log Out</asp:LinkButton>
+                </td>
+            </tr>
+                 </table>
+   
+    </div>
+         <div>
+            <table align="right" style="border:groove ">
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="hyperback" runat="server" NavigateUrl="~/Home.aspx" Text="Go Back"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>
